@@ -1,0 +1,21 @@
+# ninja log v6
+0	11	1740515509346182112	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	dc85b9b244ebba05
+0	11	1740515509346182112	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	dc85b9b244ebba05
+11	2250	1740515511585959968	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	7e594f1d7aa2b4e6
+11	2250	1740515511585959968	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	7e594f1d7aa2b4e6
+2250	2260	1740515511596044248	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	89a78573d0731a30
+2250	2260	1740515511596044248	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	89a78573d0731a30
+2260	2270	1740515511605981360	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	8540c6055a3e599c
+2260	2270	1740515511605981360	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	8540c6055a3e599c
+2270	2280	1740515511615624637	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	ed39c7858dac0a89
+2270	2280	1740515511615624637	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	ed39c7858dac0a89
+2280	2290	1740515511625301081	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	f6c0de2188bac599
+2280	2290	1740515511625301081	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	f6c0de2188bac599
+2290	2299	1740515511634306436	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	e579ef30a0d27b88
+2290	2299	1740515511634306436	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	e579ef30a0d27b88
+2299	2308	1740515511643804545	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	ae14a637b78f88fc
+2299	2308	1740515511643804545	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	ae14a637b78f88fc
+2308	2322	1740515511657595810	CMakeFiles/curl-populate-complete	8cae522d99785e43
+2308	2322	1740515511657595810	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	8cae522d99785e43
+2308	2322	1740515511657595810	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	8cae522d99785e43
+2308	2322	1740515511657595810	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	8cae522d99785e43

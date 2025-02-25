@@ -1,0 +1,21 @@
+# ninja log v6
+0	12	1740515501928101042	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	4155c775c9c8932d
+0	12	1740515501928101042	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	4155c775c9c8932d
+12	1279	1740515503195090743	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	9008d291c9610693
+12	1279	1740515503195090743	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	9008d291c9610693
+1279	1315	1740515503195571163	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	79e15a7497849cf7
+1279	1315	1740515503195571163	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	79e15a7497849cf7
+1315	1326	1740515503242296495	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	b79320fe4a8b1929
+1315	1326	1740515503242296495	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	b79320fe4a8b1929
+1326	1337	1740515503253226323	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	e56a44fd2d828cda
+1326	1337	1740515503253226323	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	e56a44fd2d828cda
+1337	1347	1740515503263358311	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	c4f7a251d28a8886
+1337	1347	1740515503263358311	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	c4f7a251d28a8886
+1347	1357	1740515503273577717	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	290513a0bd9170c6
+1347	1357	1740515503273577717	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	290513a0bd9170c6
+1357	1367	1740515503283205077	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	5b9858ad915dc6ef
+1357	1367	1740515503283205077	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	5b9858ad915dc6ef
+1367	1380	1740515503296963383	CMakeFiles/cpr-populate-complete	fe25eb80d909d5f4
+1367	1380	1740515503296963383	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	fe25eb80d909d5f4
+1367	1380	1740515503296963383	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete	fe25eb80d909d5f4
+1367	1380	1740515503296963383	/Users/artem/labwork6-artemdan228/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	fe25eb80d909d5f4

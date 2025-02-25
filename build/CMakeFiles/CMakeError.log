@@ -1,0 +1,238 @@
+Performing Curl Test HAVE_FSETXATTR_5 failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cab2a/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cab2a.dir/build.make CMakeFiles/cmTC_cab2a.dir/build
+Building C object CMakeFiles/cmTC_cab2a.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_FSETXATTR_5  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_cab2a.dir/CurlTests.c.o -MF CMakeFiles/cmTC_cab2a.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_cab2a.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:451:26: error: too few arguments to function call, expected 6, have 5
+  451 |   fsetxattr(0, 0, 0, 0, 0);
+      |   ~~~~~~~~~              ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/xattr.h:70:5: note: 'fsetxattr' declared here
+   70 | int fsetxattr(int fd, const char *name, const void *value, size_t size, u_int32_t position, int options);
+      |     ^         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_cab2a.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_cab2a/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50d9e/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_50d9e.dir/build.make CMakeFiles/cmTC_50d9e.dir/build
+Building C object CMakeFiles/cmTC_50d9e.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_IOCTLSOCKET  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_50d9e.dir/CurlTests.c.o -MF CMakeFiles/cmTC_50d9e.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_50d9e.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:241:24: error: call to undeclared function 'ioctlsocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  241 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                        ^
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:241:44: error: use of undeclared identifier 'FIONBIO'
+  241 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                                            ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_50d9e.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_50d9e/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2801f/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2801f.dir/build.make CMakeFiles/cmTC_2801f.dir/build
+Building C object CMakeFiles/cmTC_2801f.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_2801f.dir/CurlTests.c.o -MF CMakeFiles/cmTC_2801f.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_2801f.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:265:13: error: call to undeclared function 'IoctlSocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  265 |     if(0 != IoctlSocket(0, 0, 0))
+      |             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_2801f.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_2801f/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d62ce/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d62ce.dir/build.make CMakeFiles/cmTC_d62ce.dir/build
+Building C object CMakeFiles/cmTC_d62ce.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_d62ce.dir/CurlTests.c.o -MF CMakeFiles/cmTC_d62ce.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_d62ce.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:289:17: error: call to undeclared function 'IoctlSocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  289 |         if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                 ^
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:289:32: error: use of undeclared identifier 'FIONBIO'
+  289 |         if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                                ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_d62ce.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_d62ce/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9b6de/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9b6de.dir/build.make CMakeFiles/cmTC_9b6de.dir/build
+Building C object CMakeFiles/cmTC_9b6de.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_9b6de.dir/CurlTests.c.o -MF CMakeFiles/cmTC_9b6de.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_9b6de.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:312:17: error: call to undeclared function 'ioctlsocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  312 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                 ^
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:312:32: error: use of undeclared identifier 'FIONBIO'
+  312 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                                ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_9b6de.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_9b6de/fast] Error 2
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a8c38/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a8c38.dir/build.make CMakeFiles/cmTC_a8c38.dir/build
+Building C object CMakeFiles/cmTC_a8c38.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_a8c38.dir/CurlTests.c.o -MF CMakeFiles/cmTC_a8c38.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_a8c38.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:404:43: error: use of undeclared identifier 'SO_NONBLOCK'
+  404 |         if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+      |                                           ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a8c38.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_a8c38/fast] Error 2
+
+
+Performing Curl Test HAVE_O_NONBLOCK failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f43e0/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f43e0.dir/build.make CMakeFiles/cmTC_f43e0.dir/build
+Building C object CMakeFiles/cmTC_f43e0.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_O_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_f43e0.dir/CurlTests.c.o -MF CMakeFiles/cmTC_f43e0.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_f43e0.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+Linking C executable cmTC_f43e0
+/opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f43e0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE_O_NONBLOCK  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f43e0.dir/CurlTests.c.o -o cmTC_f43e0
+Undefined symbols for architecture arm64:
+  "_main", referenced from:
+      <initial-undefines>
+ld: symbol(s) not found for architecture arm64
+cc: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f43e0] Error 1
+make: *** [cmTC_f43e0/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3 failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9ee81/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9ee81.dir/build.make CMakeFiles/cmTC_9ee81.dir/build
+Building C object CMakeFiles/cmTC_9ee81.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_GETHOSTBYNAME_R_3  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_9ee81.dir/CurlTests.c.o -MF CMakeFiles/cmTC_9ee81.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_9ee81.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:97:23: error: variable has incomplete type 'struct hostent_data'
+   97 |   struct hostent_data hdata;
+      |                       ^
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:97:10: note: forward declaration of 'struct hostent_data'
+   97 |   struct hostent_data hdata;
+      |          ^
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:109:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  109 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_9ee81.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_9ee81/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5 failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c1643/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c1643.dir/build.make CMakeFiles/cmTC_c1643.dir/build
+Building C object CMakeFiles/cmTC_c1643.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_GETHOSTBYNAME_R_5  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_c1643.dir/CurlTests.c.o -MF CMakeFiles/cmTC_c1643.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_c1643.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:112:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  112 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c1643.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_c1643/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_6 failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a1216/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a1216.dir/build.make CMakeFiles/cmTC_a1216.dir/build
+Building C object CMakeFiles/cmTC_a1216.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_GETHOSTBYNAME_R_6  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_a1216.dir/CurlTests.c.o -MF CMakeFiles/cmTC_a1216.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_a1216.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:116:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  116 |   rc = gethostbyname_r(address, &h, buffer, 8192, &hp, &h_errnop);
+      |        ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a1216.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_a1216/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c53b4/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c53b4.dir/build.make CMakeFiles/cmTC_c53b4.dir/build
+Building C object CMakeFiles/cmTC_c53b4.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_GETHOSTBYNAME_R_3_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_c53b4.dir/CurlTests.c.o -MF CMakeFiles/cmTC_c53b4.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_c53b4.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:97:23: error: variable has incomplete type 'struct hostent_data'
+   97 |   struct hostent_data hdata;
+      |                       ^
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:97:10: note: forward declaration of 'struct hostent_data'
+   97 |   struct hostent_data hdata;
+      |          ^
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:109:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  109 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_c53b4.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_c53b4/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f6e26/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f6e26.dir/build.make CMakeFiles/cmTC_f6e26.dir/build
+Building C object CMakeFiles/cmTC_f6e26.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_GETHOSTBYNAME_R_5_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_f6e26.dir/CurlTests.c.o -MF CMakeFiles/cmTC_f6e26.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_f6e26.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:112:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  112 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f6e26.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_f6e26/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8ddfb/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8ddfb.dir/build.make CMakeFiles/cmTC_8ddfb.dir/build
+Building C object CMakeFiles/cmTC_8ddfb.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_GETHOSTBYNAME_R_6_REENTRANT  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_8ddfb.dir/CurlTests.c.o -MF CMakeFiles/cmTC_8ddfb.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_8ddfb.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:116:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  116 |   rc = gethostbyname_r(address, &h, buffer, 8192, &hp, &h_errnop);
+      |        ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8ddfb.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_8ddfb/fast] Error 2
+
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: '/Users/artem/labwork6-artemdan228/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_564f4/fast
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_564f4.dir/build.make CMakeFiles/cmTC_564f4.dir/build
+Building C object CMakeFiles/cmTC_564f4.dir/CurlTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_GLIBC_STRERROR_R  -DHAVE_STDIO_H -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UIO_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ALLOCA_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_DLFCN_H -DHAVE_MEMORY_H -DHAVE_NETINET_IF_ETHER_H -DHAVE_STDINT_H -DHAVE_SYS_UTSNAME_H -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_564f4.dir/CurlTests.c.o -MF CMakeFiles/cmTC_564f4.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_564f4.dir/CurlTests.c.o -c /Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c
+/Users/artem/labwork6-artemdan228/build/_deps/curl-src/CMake/CurlTests.c:420:51: error: subscripted value is not an array, pointer, or vector
+  420 |   check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_564f4.dir/CurlTests.c.o] Error 1
+make: *** [cmTC_564f4/fast] Error 2
+
+
