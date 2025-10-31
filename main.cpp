@@ -108,7 +108,7 @@ bool isValidDate(const std::string& date) {
 }
 
 cpr::Response getCityData() {
-    cpr::Response response = cpr::Get(cpr::Url{"https://api.rasp.yandex.net/v3.0/stations_list/?apikey=90dfe575-3c10-4440-a481-73a4650f08a1&lang=ru_RU&format=json"});
+    cpr::Response response = cpr::Get(cpr::Url{"https://api.rasp.yandex.net/v3.0/stations_list/?apikey=YOUR_API_KEY&lang=ru_RU&format=json"});
     if (response.status_code != 200) {
         std::cerr << "Ошибка запроса к API. Код ошибки: " << response.status_code << std::endl;
         return cpr::Response();
@@ -163,7 +163,7 @@ int main() {
     request.to = code_to;
     request.date_from = DateParser(inputDate_from);
     request.date_to = DateParser(inputDate_to);
-    request.apikey = "90dfe575-3c10-4440-a481-73a4650f08a1";
+    request.apikey = "YOUR_API_KEY"; // Замените на ваш реальный API ключ
 
     std::string cacheKey_from = generateCacheKey(request.from, request.to, request.date_from, request.date_to);
     std::string cacheKey_to = generateCacheKey(request.to, request.from, request.date_to, request.date_from);
